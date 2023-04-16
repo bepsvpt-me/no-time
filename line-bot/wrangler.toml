@@ -1,0 +1,11 @@
+name = "no-time-line-bot"
+main = "src/index.ts"
+compatibility_date = "2023-04-15"
+node_compat = true
+
+[vars]
+# The necessary secrets are:
+# - LINE_CHANNEL_ACCESS_TOKEN
+# - LINE_CHANNEL_SECRET
+# - API_ENDPOINT
+# Run `echo <VALUE> | wrangler secret put <NAME>` for each of these

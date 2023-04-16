@@ -1,0 +1,13 @@
+includes:
+    - vendor/nunomaduro/larastan/extension.neon
+
+parameters:
+    level: max
+
+    parallel:
+        maximumNumberOfProcesses: 4
+
+    paths:
+        - app
+        - config
+        - routes
